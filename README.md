@@ -20,6 +20,11 @@ DOM manipulation
 Handling user input and edge cases
 **Project Status**
 ✅ Completed
+
+
+
+
+
 **Weather Forecast Web App**
 **Overview**
 A dynamic Weather Forecast App that displays real-time weather information based on the city entered by the user.

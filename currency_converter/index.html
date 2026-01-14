@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mini Project</title>
+    <link rel="stylesheet" href="pr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cont">
+        <h1>Welcome to Currency Converter</h1>
+        <div class="box1">
+            <label for="in1"></label>
+            <input type="text" name="in1" id="in1" placeholder="Enter the amount">
+           <div class="select">
+            <div id="c1">
+            <label for="currency1">From</label>
+            &nbsp;
+            <img src="https://flagsapi.com/US/flat/64.png">
+            <select name="currency1" id="currency1">
+                <option value="USD">USD</option>
+            </select>
+           </div>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             <div id="arrow">
+             <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             <div id="c2">
+            <label for="currency2">To</label>
+             &nbsp;
+            <img src="https://flagsapi.com/IN/flat/64.png">
+            <select name="currency2" id="currency2">
+                <option value="INR">INR</option>
+            </select>
+              </div>
+              </div>
+            <button id="btn" type="button">Convert</button>  
+    </div>
+    <input type="text" name="out1" id="out1" placeholder="Converted amount" readonly>
+    </div>
+    <script src="flagcode.js"></script>
+    <script src="index.js"></script>
+    
+    </body>
+</html>

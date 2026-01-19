@@ -11,11 +11,11 @@ const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol
        }
         let data=await res.json();
         if (data["Error Message"]) {
-            alert(`❌ "${symbol}" is not a valid symbol.`);
+            alert(` "${symbol}" is not a valid symbol.`);
             return null;
         }
         if (data.Note) {
-            alert(`⚠️ API limit reached. Try again later.`);
+            alert(` API limit reached. Try again later.`);
             return null;
         }
     return data;

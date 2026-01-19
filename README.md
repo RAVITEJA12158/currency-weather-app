@@ -54,4 +54,8 @@ Conditional styling based on data
 **Project Status**
 ✅ Completed
 
-🔜 Stock-related project coming soon
+🔜 Stock-related project
+Search any stock by symbol (e.g., AAPL, TSLA, MSFT).
+Shows latest opening, high, low, close, and volume.
+Background changes dynamically based on stock movement (up/down/neutral).
+Useful for quick market insights at a glance.

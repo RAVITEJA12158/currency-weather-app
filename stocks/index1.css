@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("stocks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border: 8px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#output,
+#output1,
+#output2,
+#output3,
+#output4,
+#output5,
+#output6{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 15px;
+    font-size: large;
+    font-weight: bold;
+    color: yellow;
+}
+.container{
+    flex-wrap: wrap;
+}
+.container > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    padding: 8px;
+    font-size: 16px;
+}
+
+label{
+    margin-bottom: 5px;
+    font-weight: 500;
+}

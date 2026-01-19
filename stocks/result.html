@@ -1,0 +1,55 @@
+<!-- Core Features (Must Have)
+Search stock by symbol (AAPL, TSLA, INFY, TCS)
+Display current stock price
+Show daily change (price + %)
+Show company name
+Last updated time
+Basic error handling (invalid symbol, API limit)
+Optional (Good for LinkedIn)
+Line chart (last 7–30 days)
+Light/Dark mode
+Loader while fetching data -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Listings</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Result</h1>
+        <div id="output">
+           <label for="symbol">Stock Symbol</label>
+           <input type="text" id="symbol" disabled>
+          </div>
+            <div id="output1">
+             <label for="opening">Opening Price</label>
+             <input type="text" id="opening" disabled>
+             </div>
+               <div id="output2">
+                <label for="high">High Price</label>
+                <input type="text" id="high" disabled>
+                 </div>
+                   <div id="output3">
+                <label for="low">Low Price</label>
+                <input type="text" id="low" disabled>
+                </div>
+                   <div id="output4">
+                <label for="close">Close Price</label>
+                <input type="text" id="close" disabled>
+                 </div>
+                   <div id="output5">
+                <label for="date">Date</label>
+                <input type="text" id="date" disabled>
+                </div>
+                 <div id="output6">
+                <label for="volume">Volume</label>
+                <input type="text" id="volume" disabled>
+                </div>
+                </label>
+    </div>                  
+    <script type="module" src="index.js"></script>
+    </body>
+</html>

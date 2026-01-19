@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Listings</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="container">
+    <h1>WELCOME TO STOCK LISTINGS</h1>
+    <input type="text" id="stockSymbol" placeholder="Enter Stock Symbol (like: AAPL, TSLA,MSFT)">
+    <button id="searchBtn">Search</button>
+   </div>
+   <script>
+    document.getElementById("searchBtn").addEventListener("click",async function(){
+    const symbol=document.getElementById("stockSymbol").value;
+     window.location.href=`result.html?symbol=${symbol}`;
+});
+   </script>
+</body>
+</html>
